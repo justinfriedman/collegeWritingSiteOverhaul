@@ -72,6 +72,17 @@
 }
 
 
+
+.dropdown-menu a{
+  font-size: 12pt;
+
+}
+.dropdown-menu li {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -143,7 +154,22 @@ footer {
     width: 100%;
 }
 
+.short-footer {
+  position: absolute;;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
 .name-grid {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.content {
+
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
 }
